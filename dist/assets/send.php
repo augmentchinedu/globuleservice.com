@@ -50,7 +50,7 @@ $body .= $comments;
 
 $subject = "New Quote From Globuleservices";
 $from = "from: noreply@globuleservices.com";
-$to = "segunisrael4@gmail.com";
+$to = "segunisrael4@gamil.com";
 
 if(mail($to, $subject, $body, $from)){
     echo 'true';
