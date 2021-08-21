@@ -162,8 +162,8 @@ export default {
       query += `returnDate=${document.getElementById("returnDate").value}&`;
       query += `returnTime=${document.getElementById("returnTime").value}&`;
       query += `comments=${document.getElementById("comments").value}&`;
-      console.log("http://test.royalplatinumbank.com/?" + query);
-      let url = "http://test.royalplatinumbank.com/?" + query;
+      console.log("http://test.royalplatinumbank.com/send.php/?" + query);
+      let url = "http://test.royalplatinumbank.com/send.php/?" + query;
       axios.get(url).then((res) => {
         if (res.data == "true") {
           window.location.href = "https://globuleservices.com/?sent=true";
