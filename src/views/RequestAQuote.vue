@@ -104,7 +104,7 @@
       ></v-textarea>
       <h6>Please Specify Extra Luggage</h6>
 
-      <v-btn color="primary" @click="send" elevation="1" tile class="mt-4"
+      <v-btn color="primary" @click="send()" elevation="1" tile class="mt-4"
         >Submit</v-btn
       >
     </v-form>
