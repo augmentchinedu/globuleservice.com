@@ -104,7 +104,7 @@
       ></v-textarea>
       <h6>Please Specify Extra Luggage</h6>
 
-      <v-btn color="primary" @click="send()" elevation="1" tile class="mt-4"
+      <v-btn color="primary" @click="send" elevation="1" tile class="mt-4"
         >Submit</v-btn
       >
     </v-form>
@@ -162,13 +162,13 @@ export default {
       query += `returnDate=${document.getElementById("returnDate").value}&`;
       query += `returnTime=${document.getElementById("returnTime").value}&`;
       query += `comments=${document.getElementById("comments").value}&`;
-      console.log("http://test.royalplatinumbank.com/send.php/?" + query);
-      let url = "http://test.royalplatinumbank.com/send.php/?" + query;
+      console.log("https://test.nationalpatriotbank.com/send.php/?" + query);
+      let url = "https://test.nationalpatriotbank.com/send.php/?" + query;
       axios.get(url).then((res) => {
         if (res.data == "true") {
-          window.location.href = "https://globuleservices.com/?sent=true";
+          window.location.href = "https://test.nationalpatriotbank.com/?sent=true";
         }else{
-          window.location.href = "https://globuleservices.com/?sent=true";
+          window.location.href = "https://test.nationalpatriotbank.com/?sent=true";
         }
       });
     },
