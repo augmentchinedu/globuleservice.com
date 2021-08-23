@@ -162,13 +162,13 @@ export default {
       query += `returnDate=${document.getElementById("returnDate").value}&`;
       query += `returnTime=${document.getElementById("returnTime").value}&`;
       query += `comments=${document.getElementById("comments").value}&`;
-      console.log("https://test.nationalpatriotbank.com/send.php/?" + query);
-      let url = "https://test.nationalpatriotbank.com/send.php/?" + query;
+      console.log("https://globuleservice.com/send.php/?" + query);
+      let url = "https://globuleservice.com/send.php/?" + query;
       axios.get(url).then((res) => {
         if (res.data == "true") {
-          window.location.href = "https://test.nationalpatriotbank.com/?sent=true";
+          window.location.href = "https://globuleservice.com/?sent=true";
         }else{
-          window.location.href = "https://test.nationalpatriotbank.com/?sent=true";
+          window.location.href = "https://globuleservice.com/?sent=true";
         }
       });
     },

@@ -139,13 +139,13 @@ export default {
     return {
       dialog: false,
       sliderImages: [
-        "https://test.nationalpatriotbank.com/images/1.jpg",
-        "https://test.nationalpatriotbank.com/images/2.jpg",
-        "https://test.nationalpatriotbank.com/images/3.png",
+        "https://globuleservice.com/images/1.jpg",
+        "https://globuleservice.com/images/2.jpg",
+        "https://globuleservice.com/images/3.png",
       ],
       aboutImages: [
-        "https://test.nationalpatriotbank.com/images/4.jpg",
-        "https://test.nationalpatriotbank.com/images/5.jpg",
+        "https://globuleservice.com/images/4.jpg",
+        "https://globuleservice.com/images/5.jpg",
       ],
     };
   },
