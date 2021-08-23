@@ -24,7 +24,7 @@
 
           <div class="font-weight-medium">
             <p>
-              At Cameron Air, our top priorities are your safety and comfort
+              At Globule Air, our top priorities are your safety and comfort
               during your time with us. Our fleet of aircraft are designed to
               provide fast, comfortable and safe travel options to our
               passengers. Our all-weather aircraft are fully equipped to go

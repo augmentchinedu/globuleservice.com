@@ -6,7 +6,7 @@
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="./assets/logo/camronservice.png"
+          src="./assets/logo/Globuleservice.png"
           transition="scale-transition"
           width="200"
           height="100"
@@ -241,7 +241,7 @@ export default {
 
         {
           name: "description",
-          content: `At Cameron Air, our top priorities are your safety and comfort during your time with us. Our fleet of aircraft are designed to provide fast, comfortable and safe travel options to our passengers. Our all-weather aircraft are fully equipped to go where you want, when you want.`,
+          content: `At Globule Air, our top priorities are your safety and comfort during your time with us. Our fleet of aircraft are designed to provide fast, comfortable and safe travel options to our passengers. Our all-weather aircraft are fully equipped to go where you want, when you want.`,
         },
       ],
     };

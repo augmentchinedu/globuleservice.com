@@ -3,7 +3,7 @@
     <v-row class="pa-3">
       <v-col cols="12" md="6">
         <p>
-          Cameron Air has access to a variety of other aircraft to suit your
+          Globule Air has access to a variety of other aircraft to suit your
           needs. Contact us for more details.
         </p>
         <p>Send us a mail to request for a quote</p>
