@@ -6,7 +6,7 @@
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="./assets/logo/Globuleservice.png"
+          src="./assets/logo/camronservice.png"
           transition="scale-transition"
           width="200"
           height="100"
